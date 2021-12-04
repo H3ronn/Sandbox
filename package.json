@@ -1,0 +1,27 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --mode development --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H3ronn/Sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/H3ronn/Sandbox/issues"
+  },
+  "homepage": "https://github.com/H3ronn/Sandbox#readme",
+  "dependencies": {
+    "dom-to-image": "^2.6.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
